@@ -1,0 +1,773 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="ru"><head>
+    <!--[if gte mso 9]><xml>
+     <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]--><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta name="viewport" content="width=device-width">
+    <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
+    <title>Template Base</title>
+    
+    
+    <style type="text/css" id="media-query">
+      body {
+  margin: 0;
+  padding: 0; }
+
+table, tr, td {
+  vertical-align: top;
+  border-collapse: collapse; }
+
+.ie-browser table, .mso-container table {
+  table-layout: fixed; }
+
+* {
+  line-height: inherit; }
+
+a[x-apple-data-detectors=true] {
+  color: inherit !important;
+  text-decoration: none !important; }
+
+[owa] .img-container div, [owa] .img-container button {
+  display: block !important; }
+
+[owa] .fullwidth button {
+  width: 100% !important; }
+
+[owa] .block-grid .col {
+  display: table-cell;
+  float: none !important;
+  vertical-align: top; }
+
+.ie-browser .num12, .ie-browser .block-grid, [owa] .num12, [owa] .block-grid {
+  width: 600px !important; }
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%; }
+
+.ie-browser .mixed-two-up .num4, [owa] .mixed-two-up .num4 {
+  width: 200px !important; }
+
+.ie-browser .mixed-two-up .num8, [owa] .mixed-two-up .num8 {
+  width: 400px !important; }
+
+.ie-browser .block-grid.two-up .col, [owa] .block-grid.two-up .col {
+  width: 300px !important; }
+
+.ie-browser .block-grid.three-up .col, [owa] .block-grid.three-up .col {
+  width: 200px !important; }
+
+.ie-browser .block-grid.four-up .col, [owa] .block-grid.four-up .col {
+  width: 150px !important; }
+
+.ie-browser .block-grid.five-up .col, [owa] .block-grid.five-up .col {
+  width: 120px !important; }
+
+.ie-browser .block-grid.six-up .col, [owa] .block-grid.six-up .col {
+  width: 100px !important; }
+
+.ie-browser .block-grid.seven-up .col, [owa] .block-grid.seven-up .col {
+  width: 85px !important; }
+
+.ie-browser .block-grid.eight-up .col, [owa] .block-grid.eight-up .col {
+  width: 75px !important; }
+
+.ie-browser .block-grid.nine-up .col, [owa] .block-grid.nine-up .col {
+  width: 66px !important; }
+
+.ie-browser .block-grid.ten-up .col, [owa] .block-grid.ten-up .col {
+  width: 60px !important; }
+
+.ie-browser .block-grid.eleven-up .col, [owa] .block-grid.eleven-up .col {
+  width: 54px !important; }
+
+.ie-browser .block-grid.twelve-up .col, [owa] .block-grid.twelve-up .col {
+  width: 50px !important; }
+
+@media only screen and (min-width: 620px) {
+  .block-grid {
+    width: 600px !important; }
+  .block-grid .col {
+    vertical-align: top; }
+    .block-grid .col.num12 {
+      width: 600px !important; }
+  .block-grid.mixed-two-up .col.num4 {
+    width: 200px !important; }
+  .block-grid.mixed-two-up .col.num8 {
+    width: 400px !important; }
+  .block-grid.two-up .col {
+    width: 300px !important; }
+  .block-grid.three-up .col {
+    width: 200px !important; }
+  .block-grid.four-up .col {
+    width: 150px !important; }
+  .block-grid.five-up .col {
+    width: 120px !important; }
+  .block-grid.six-up .col {
+    width: 100px !important; }
+  .block-grid.seven-up .col {
+    width: 85px !important; }
+  .block-grid.eight-up .col {
+    width: 75px !important; }
+  .block-grid.nine-up .col {
+    width: 66px !important; }
+  .block-grid.ten-up .col {
+    width: 60px !important; }
+  .block-grid.eleven-up .col {
+    width: 54px !important; }
+  .block-grid.twelve-up .col {
+    width: 50px !important; } }
+
+@media (max-width: 620px) {
+  .block-grid, .col {
+    min-width: 320px !important;
+    max-width: 100% !important;
+    display: block !important; }
+  .block-grid {
+    width: calc(100% - 40px) !important; }
+  .col {
+    width: 100% !important; }
+    .col > div {
+      margin: 0 auto; }
+  img.fullwidth, img.fullwidthOnMobile {
+    max-width: 100% !important; } }
+
+    </style>
+</head>
+<body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #FFFFFF">
+  <style type="text/css" id="media-query-bodytag">
+    @media (max-width: 520px) {
+      .block-grid {
+        min-width: 320px!important;
+        max-width: 100%!important;
+        width: 100%!important;
+        display: block!important;
+      }
+
+      .col {
+        min-width: 320px!important;
+        max-width: 100%!important;
+        width: 100%!important;
+        display: block!important;
+      }
+
+        .col > div {
+          margin: 0 auto;
+        }
+
+      img.fullwidth {
+        max-width: 100%!important;
+      }
+    }
+  </style>
+  <!--[if IE]><div class="ie-browser"><![endif]-->
+  <!--[if mso]><div class="mso-container"><![endif]-->
+  <table class="nl-container" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #FFFFFF;width: 100%" cellpadding="0" cellspacing="0">
+	<tbody>
+	<tr style="vertical-align: top">
+		<td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
+    <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #FFFFFF;"><![endif]-->
+
+    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #515175;" class="block-grid ">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#515175;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#515175;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="600" style=" width:600px; padding-right: 0px; padding-left: 0px; padding-top:15px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num12" style="min-width: 320px;max-width: 600px;display: table-cell;vertical-align: top;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:15px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div style="font-size: 16px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><div>
+  <img src="http://s015.radikal.ru/i330/1710/24/f524ac88c219.png">
+  <p style=" display: inline; font-size:15px; color:#ffffff; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">музыка</p>
+</div></div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #515175;" class="block-grid mixed-two-up">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#515175;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#515175;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="200" style=" width:200px; padding-right: 0px; padding-left: 0px; padding-top:10px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="display: table-cell;vertical-align: top;max-width: 320px;min-width: 200px;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:10px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#FFFFFF;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 10px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#FFFFFF;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px" dir="ltr"><a style="color:#c5c5e5;text-decoration: none;" href="http://bigjazz.ru/" target="_blank" title="BIG CITY JAZZ SHOW" data-mce-selected="1" rel="noopener"><strong><span style="text-decoration: underline; font-size: 16px; line-height: 19px;"><span style="line-height: 19px; font-size: 16px;">?BIG CITY JAZZ</span></span></strong></a></p><p style="margin: 0;font-size: 14px;line-height: 17px" dir="ltr"><a style="color:#c5c5e5;color:#c5c5e5;text-decoration: none;" href="http://bigjazz.ru/" target="_blank" title="BIG CITY JAZZ SHOW" rel="noopener"><strong><span style="text-decoration: underline; font-size: 16px; line-height: 19px;"><span style="line-height: 19px; font-size: 16px;">SHOW</span></span></strong></a></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 20px; padding-top: 0px; padding-bottom: 35px;"><![endif]-->
+<div style="color:#c5c5e5;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 20px; padding-top: 0px; padding-bottom: 35px;">	
+	<div style="font-size:12px;line-height:14px;color:#c5c5e5;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Летом так хочется позитива и эмоций! А что может быть веселее и зажигательнее джаза, буги-вуги, соула и рок-н-рола? Пусть лето станет ярким и музыкальным.</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <div style="font-size: 16px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><div style="text-align:center; width:auto;  ">
+	<a href="https://www.culture.ru/music/" target="_blank"><div style="text-align:center; width:50%; float:left; line-height:15px;">
+		<img border="0" src="http://s014.radikal.ru/i327/1711/ed/d20ae06cb1a9.png" alt="ПОХОЖЕЕ" title="ПОХОЖЕЕ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both; max-width: 32px;">
+		<p style="font-size:10px; color:#c5c5e5; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: underline; text-align:center;">ПОХОЖЕЕ</p>
+	</div></a>
+	<a href="https://zvooq.online/tracks/big-city-jazz" target="_blank"><div style="text-align:center; width:50%; overflow:hidden; line-height:22px; ">
+		<img border="0" src="http://s019.radikal.ru/i618/1711/63/6d1609f7ae2d.png" alt="ПОСЛУШАТЬ" title="ПОСЛУШАТЬ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;border: none;height: auto;float: none;max-width: 24px; position: relative; ">
+		<p style="font-size:10px; color:#c5c5e5; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: underline; text-align:center;">ПОСЛУШАТЬ</p>
+	</div></a>
+
+</div>
+</div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="400" style=" width:400px; padding-right: 0px; padding-left: 0px; padding-top:20px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num8" style="display: table-cell;vertical-align: top;min-width: 320px;max-width: 400px;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:20px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="right" class="img-container right fullwidthOnMobile fixedwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="right"><![endif]-->
+  <img class="right fullwidthOnMobile fixedwidth" align="right" border="0" src="http://s019.radikal.ru/i643/1711/f0/3f5355a6c7d5.jpg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 400px" width="400">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #66cc99;" class="block-grid three-up">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#66cc99;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#66cc99;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="200" style="background-color:#ccff99; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #ccff99; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s016.radikal.ru/i335/1711/3b/6d4c8da97d37.jpg" alt="Первый реквием" title="Первый реквием" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#333333;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><strong><span style="text-decoration: underline; font-size: 16px; line-height: 19px;">ПЕРВЫЙ РЕКВИЕМ</span></strong></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 15px;"><![endif]-->
+<div style="color:#333333;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 15px;">	
+	<div style="font-size:12px;line-height:14px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Воистину, первый: реквием Окегема был первым в истории музыки многоголосным реквиемом, и в России он исполняется в самый первый раз. Хоть и старый реквием, а новинка!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style="background-color:#66cc99; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #66cc99; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s56.radikal.ru/i154/1711/8c/582de3fb5c59.jpg" alt="Дмитрий Ряхин - романс на бис" title="Дмитрий Ряхин - романс на бис" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#1f3737;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#1f3737;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="text-decoration: underline; font-size: 14px; line-height: 16px;"><span style="font-size: 14px; line-height: 16px;"><strong><span style="font-size: 16px; line-height: 19px;">ДМИТРИЙ РЯХИН</span></strong></span></span><span style="font-size: 14px; line-height: 16px;"><span style="font-size: 14px; line-height: 16px;"><strong><span style="font-size: 16px; line-height: 19px;">&#160;-&#160;</span></strong></span></span></p><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="text-decoration: underline; font-size: 14px; line-height: 16px;"><span style="font-size: 14px; line-height: 16px;"><strong style="text-align: initial;"><span style="font-size: 16px; line-height: 19px;">РОМАНС НА БИС</span></strong></span></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 25px;"><![endif]-->
+<div style="color:#333333;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 25px;">	
+	<div style="font-size:12px;line-height:14px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Оставляйте заявки и приходите на концерт. Дмитрий Ряхин споет именно те чудесные романсы, которые любите вы!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style="background-color:#339999; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #339999; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s010.radikal.ru/i311/1711/d6/f7e031c4155d.jpg" alt="Конкурс Галины Вишневской" title="Конкурс Галины Вишневской" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#ffffff;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#ffffff;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><strong><span style="font-size: 16px; line-height: 19px;"><span style="text-decoration: underline; line-height: 19px; font-size: 16px;"><span style="line-height: 19px; font-size: 16px;">КОНКУРС ГАЛИНЫ<span style="line-height: 19px; font-size: 16px;"> </span></span></span></span></strong><strong><span style="font-size: 16px; line-height: 19px;"><span style="text-decoration: underline; line-height: 19px; font-size: 16px;"><span style="line-height: 19px; font-size: 16px;">ВИШНЕВСКОЙ</span></span></span></strong></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 30px;"><![endif]-->
+<div style="color:#ffffff;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 30px;">	
+	<div style="font-size:12px;line-height:14px;color:#ffffff;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Молодые оперные певцы со всего мира соревнуются в артистичности, в остроте исполнения, в звонкоголосии - и в обаянии!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #333333;" class="block-grid ">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#333333;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#333333;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="600" style=" width:600px; padding-right: 0px; padding-left: 0px; padding-top:15px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num12" style="min-width: 320px;max-width: 600px;display: table-cell;vertical-align: top;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:15px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div style="font-size: 16px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><div class="our-class">
+  <img src="http://s019.radikal.ru/i611/1711/5a/011f9385bf01.png">
+  <p style="display: inline; font-size:15px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#ffffff; padding-top:1px; padding-bottom: 10px;">для детей</p>
+</div></div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #333333;" class="block-grid mixed-two-up">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#333333;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#333333;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="400" style=" width:400px; padding-right: 0px; padding-left: 0px; padding-top:15px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num8" style="display: table-cell;vertical-align: top;min-width: 320px;max-width: 400px;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:15px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s015.radikal.ru/i331/1711/b0/01c90585f59c.jpg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 400px" width="400">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style=" width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="display: table-cell;vertical-align: top;max-width: 320px;min-width: 200px;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 20px; padding-top: 20px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#FFFFFF;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 10px; padding-left: 20px; padding-top: 20px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#FFFFFF;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 16px; line-height: 19px;"><strong><span style="text-decoration: underline; line-height: 19px; font-size: 16px;">ДЕТСКИЙ САД</span></strong></span></p><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 16px; line-height: 19px;"><strong><span style="text-decoration: underline; line-height: 19px; font-size: 16px;">СТИХОВ</span></strong></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 40px; padding-left: 20px; padding-top: 10px; padding-bottom: 55px;"><![endif]-->
+<div style="color:#C5C5E5;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 40px; padding-left: 20px; padding-top: 10px; padding-bottom: 55px;">	
+	<div style="font-size:12px;line-height:14px;color:#C5C5E5;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Вот он каков - сад стихов! Здесь все стихи растут, как груши, на дереве - а ты их слушай!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <div style="font-size: 16px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><div style="text-align:center; width:auto;  ">
+	<a href="http://www.ngatk.ru/?id=241" target="_blank"><div style="text-align:center; width:50%; float:left; line-height:15px;">
+		<img border="0" src="http://s014.radikal.ru/i327/1711/ed/d20ae06cb1a9.png" alt="ПОХОЖЕЕ" title="ПОХОЖЕЕ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both; max-width: 32px;">
+		<p style="font-size:10px; color:#c5c5e5; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: underline; text-align:center;">ПОХОЖЕЕ</p>
+	</div></a>
+	<a href="https://petamusic.ru/?string=%E4%E5%F2%F1%EA%E8%E5+%F1%EA%E0%E7%EA%E8&amp;sort=artist" target="_blank"><div style="text-align:center; width:50%; overflow:hidden; line-height:22px; ">
+		<img border="0" src="http://s019.radikal.ru/i618/1711/63/6d1609f7ae2d.png" alt="ПОСЛУШАТЬ" title="ПОСЛУШАТЬ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;border: none;height: auto;float: none;max-width: 32px; position: relative; ">
+		<p style="font-size:10px; color:#c5c5e5; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: underline; text-align:center;">ПОСЛУШАТЬ</p>
+	</div></a>
+
+</div>
+</div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ff99cc;" class="block-grid three-up">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#ff99cc;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#ff99cc;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="200" style="background-color:#ff99cc; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #ff99cc; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s41.radikal.ru/i093/1711/f6/122d45cd8836.jpg" alt="Принцесса на горошине" title="Принцесса на горошине" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#993366;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#993366;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><strong><span style="text-decoration: underline; font-size: 16px; line-height: 19px;">ПРИНЦЕССА НА ГОРОШИНЕ</span></strong></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 25px;"><![endif]-->
+<div style="color:#993366;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 25px;">	
+	<div style="font-size:12px;line-height:14px;color:#993366;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Страшная неженка - эта ваша принцесса! Любая другая и не заметила бы горошину - под десятью перинами-то! А эта всю ночь не спала: жестко ей было!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style="background-color:#ff6666; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #ff6666; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://i066.radikal.ru/1711/cb/ad3ea07cb1b3.jpg" alt="ПОСЛАННИК" title="ПОСЛАННИК" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#FFFFFF;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="line-height:14px;font-size:12px;color:#FFFFFF;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;line-height: 14px;font-size: 12px"><span style="font-size: 16px; line-height: 19px;"><b><u>ПОСЛАННИК</u></b></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#FFFFFF;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#FFFFFF;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">То ли клоун, то ли ангел, но что-то в нем однозначно есть! Смотрите, какие штуки смешные выделывает. И чудеса такие расчудесные нашей героине покажет, что ни в сказке сказать ни пером описать!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style="background-color:#cc6699; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #cc6699; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s019.radikal.ru/i635/1711/33/4ed36d3abe92.jpg" alt="КОШКИН ДОМ" title="КОШКИН ДОМ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#ffffff;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="line-height:14px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;color:#ffffff;text-align:left;"><p style="margin: 0;line-height: 14px;font-size: 12px"><span style="font-size: 16px; line-height: 19px;"><b><u>КОШКИН ДОМ</u></b></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 25px;"><![endif]-->
+<div style="color:#ffffff;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 25px;">	
+	<div style="font-size:12px;line-height:14px;color:#ffffff;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Кошка богатая, спесивая уже который раз племянникам отказывает, на порог их не пускает. Ну ничего, однажды и она поймет, что ближнему нужно отвечать добротой и лаской.</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #515175;" class="block-grid ">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#515175;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#515175;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="600" style=" width:600px; padding-right: 0px; padding-left: 0px; padding-top:10px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num12" style="min-width: 320px;max-width: 600px;display: table-cell;vertical-align: top;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:10px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div style="font-size: 16px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><div>
+  <img border="0" src="http://s018.radikal.ru/i515/1711/47/2a8b01fcef6a.png">
+  <p style=" display: inline; font-size:15px; color:#ffffff; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">творческие вечера</p>
+</div></div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #515175;" class="block-grid mixed-two-up">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#515175;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#515175;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="200" style=" width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="display: table-cell;vertical-align: top;max-width: 320px;min-width: 200px;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#FFFFFF;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 10px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="line-height:14px;font-size:12px;color:#FFFFFF;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;line-height: 14px;font-size: 12px" dir="ltr"><span style="font-size: 16px; line-height: 19px;"><b><u>ПРО ЗАВИСИМОСТИ</u></b></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 20px; padding-top: 0px; padding-bottom: 35px;"><![endif]-->
+<div style="color:#c5c5e5;line-height:150%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 20px; padding-top: 0px; padding-bottom: 35px;">	
+	<div style="font-size:12px;line-height:18px;color:#c5c5e5;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 12px;line-height: 18px">Как пристрастишься к курению - потом не отвяжешься. Или к чему-нибудь покрепче. Впрочем, не только это вызывает зависимость - люди тоже. На каждом шагу подстерегает капкан. Как в него не попасть.</p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <div style="font-size: 16px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><div style="text-align:center; width:auto;  ">
+	<div style="text-align:center; width:50%; float:left; line-height:15px;">
+		<img border="0" src="http://s014.radikal.ru/i327/1711/ed/d20ae06cb1a9.png" alt="ПОХОЖЕЕ" title="ПОХОЖЕЕ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both; max-width: 32px;">
+		<p style="font-size:10px; color:#c5c5e5; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: underline; text-align:center;">ПОХОЖЕЕ</p>
+	</div>
+	<div style="text-align:center; width:50%; overflow:hidden; line-height:22px; ">
+		<img border="0" src="http://s019.radikal.ru/i618/1711/63/6d1609f7ae2d.png" alt="ПОСЛУШАТЬ" title="ПОСЛУШАТЬ" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;border: none;height: auto;float: none;max-width: 24px; position: relative; ">
+		<p style="font-size:10px; color:#c5c5e5; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: underline; text-align:center;">ПОСЛУШАТЬ</p>
+	</div>
+
+</div>
+</div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="400" style=" width:400px; padding-right: 0px; padding-left: 0px; padding-top:20px; padding-bottom:0px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num8" style="display: table-cell;vertical-align: top;min-width: 320px;max-width: 400px;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:20px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="right" class="img-container right fullwidthOnMobile fixedwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="right"><![endif]-->
+  <img class="right fullwidthOnMobile fixedwidth" align="right" border="0" src="http://s019.radikal.ru/i601/1711/3b/680be897eb56.jpg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 400px" width="400">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #66cc99;" class="block-grid three-up">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:#66cc99;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:#66cc99;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="200" style="background-color:#ccff99; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #ccff99; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s011.radikal.ru/i316/1711/d5/2a1fd10a860d.jpg" alt="Первый реквием" title="Первый реквием" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#333333;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="font-size:12px;line-height:14px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><strong><span style="text-decoration: underline; font-size: 16px; line-height: 19px;">ИВАН ВЕЛИКИЙ</span></strong></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 40px;"><![endif]-->
+<div style="color:#333333;line-height:150%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 40px;">	
+	<div style="font-size:12px;line-height:18px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 12px;line-height: 18px">Напрасно позабыли мы Ивана III, ведь он славный и мудрый был правитель. Кремль Московский построил, земли русские объединил - есть чем вспомнить Ивана Великого!</p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style="background-color:#66cc99; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #66cc99; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s019.radikal.ru/i627/1711/0e/1e41d67cf63e.jpg" alt="Построить свой речевой имидж" title="Построить свой речевой имидж" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#1f3737;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="line-height:14px;font-size:12px;color:#1f3737;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;line-height: 14px;font-size: 12px"><span style="font-size: 16px; line-height: 19px;"><strong><u>ПОСТРОИТЬ СВОЙ РЕЧЕВОЙ ИМИДЖ</u></strong></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 0px; padding-bottom: 20px;"><![endif]-->
+<div style="color:#333333;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 10px; padding-left: 10px; padding-top: 0px; padding-bottom: 20px;">	
+	<div style="font-size:12px;line-height:14px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 14px;line-height: 17px"><span style="font-size: 12px; line-height: 14px;">Встречают не только по одежке, но и по манере разговаривать. Поэтому к тому, как и что вы говорите, следует отнестись с особым вниманием. Носите свой изящный слог как бабочку - и успех вам гарантирован!</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+              <!--[if (mso)|(IE)]></td><td align="center" width="200" style="background-color:#339999; width:200px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num4" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+              <div style="background-color: #339999; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <div align="center" class="img-container center  autowidth  fullwidth" style="padding-right: 0px;  padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+  <img class="center  autowidth  fullwidth" align="center" border="0" src="http://s018.radikal.ru/i504/1711/55/7214d63aa89a.jpg" alt="Рок и минимализм" title="Рок и минимализм" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 200px" width="200">
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
+<div style="color:#ffffff;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">	
+	<div style="line-height:14px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;color:#ffffff;text-align:left;"><p style="margin: 0;line-height: 14px;font-size: 12px"><span style="font-size: 16px; line-height: 19px;"><strong><u>РОК И МИНИМАЛИЗМ</u></strong></span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 20px;"><![endif]-->
+<div style="color:#ffffff;line-height:150%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 15px; padding-left: 15px; padding-top: 0px; padding-bottom: 20px;">	
+	<div style="font-size:12px;line-height:18px;color:#ffffff;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 12px;line-height: 18px">Вот она, современная музыка: опера и симфония стали ближе и доступнее, а рок - сложнее. Он уже давно не любительский самодел, а настоящее искусство сложных и многогранных мелодий.</p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>    <div style="background-color:transparent;">
+      <div style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;" class="block-grid ">
+        <div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 600px;"><tr class="layout-full-width" style="background-color:transparent;"><![endif]-->
+
+              <!--[if (mso)|(IE)]><td align="center" width="600" style=" width:600px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
+            <div class="col num12" style="min-width: 320px;max-width: 600px;display: table-cell;vertical-align: top;">
+              <div style="background-color: transparent; width: 100% !important;">
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"><!--<![endif]-->
+
+                  
+                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 60px; padding-left: 0px; padding-top: 5px; padding-bottom: 5px;"><![endif]-->
+<div style="color:#555555;line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; padding-right: 60px; padding-left: 0px; padding-top: 5px; padding-bottom: 5px;">	
+	<div style="font-size:12px;line-height:14px;color:#555555;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;"><p style="margin: 0;font-size: 12px;line-height: 14px;text-align: right"><span style="font-size: 12px; line-height: 14px;">Если сообщение выглядит некорректно, смотрите <a style="color:#9700A5;text-decoration: underline;" href="http://pagedesign.github.io/bigmail.html" target="_blank" rel="noopener">веб-версию</a></span></p><p style="margin: 0;font-size: 14px;line-height: 17px;text-align: right"><span style="font-size: 12px; line-height: 14px;">Отвечать на это письмо не нужно - оно рассылается автоматически.</span></p><p style="margin: 0;font-size: 12px;line-height: 14px;text-align: right"><span style="font-size: 12px; line-height: 14px;">Если вы хотите остановить рассылку нажмите <a style="color:#9700A5;color:#9700A5;color:#9700A5;text-decoration: underline;" href="http://vm.ru/" target="_blank" rel="noopener"><em><span style="text-decoration: underline; font-size: 12px; line-height: 14px;">здесь</span></em></a>.</span></p></div>	
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+                  
+              <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+              </div>
+            </div>
+          <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+    </div>   <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+		</td>
+  </tr>
+  </tbody>
+  </table>
+  <!--[if (mso)|(IE)]></div><![endif]-->
+
+</body></html>
